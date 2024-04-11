@@ -14,13 +14,13 @@ public class UIStats : MonoBehaviour
         HpBar.maxValue = curHp;
         HpBar.value = curHp;
 
-        T_HP.text = curHp.ToString() + " / 99";
+        T_HP.text = "KR  " + curHp.ToString() + " / 99";
         T_LV.text = curLv + " LV";
     }
 
     public void SetUpdate(int curHp)
     {
         HpBar.value = curHp;
-        T_HP.text = curHp.ToString() + " / 99";
+        T_HP.text = "KR  " +curHp.ToString() + " / 99";
     }
 }
